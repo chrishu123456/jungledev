@@ -1,0 +1,252 @@
+﻿/* algemeen */
+
+
+/* kleuren  
+
+    tekstkleur : #665950 grijs
+    linkkleur : #00735D  groen
+    donkerblauwgroen : #303F43 groenachtig
+    donkergrijs : #52463F;
+    paars : #9A3098 
+
+*/
+body {
+
+    font-family : 'Palatino Linotype', 'Times New Roman', serif;
+   position : relative;
+}
+
+hr {
+    position : absolute;
+    width : 100%;
+    color :#52463F;
+}
+p {
+    color : #665950;
+    font-size : 115%;
+}
+
+h1 {
+    font-size : 450%;
+    color : #00735D;
+    font-weight : bold;
+
+}
+
+h2 {
+    font-size : 200%;
+    color : #B61600;
+}
+
+.paars {
+    font-size : 125%;
+    color : #9A3098;
+    font-weight : bold;
+    letter-spacing : 0.1em;
+    word-spacing : 0.1em;
+}
+
+.rondehoek {
+    background-color : #B61600;
+    color : white;
+    font-size : 160%;
+    border-radius : 2em/2em;
+    width : 32%;
+    padding : 0.3em 1em;
+    margin-left : 2em;
+}
+
+.green {
+    color : #00735D;
+}
+/* header */
+
+header {
+            background-color : #D64708;
+
+       }
+
+
+.hoofdmenu {
+               display : block;
+               width : 80%;
+               max-width : 1200px;
+               overflow : auto;
+               margin : 0 auto;
+           }
+
+.hoofdmenu ul {
+    overflow : auto;
+    padding : 0;
+    margin : 0 0;
+
+}
+.hoofdmenu ul li {
+    display : inline-block;
+    float : left;
+    width : 19.82%;
+        text-align : center;
+        border-right : solid white 1px;
+        border-left : solid white 1px;
+        
+}
+
+.hoofdmenu ul li a {
+    text-decoration : none;
+    color : white;
+    font-size : x-large;
+
+}
+
+.hoofdmenu ul li:hover {
+    background-color : #B61600;
+}
+/* midden */
+
+.midden {
+    width : 80%;
+    margin : 0 auto;
+    max-width : 1200px;
+}
+
+.rij1 {
+    /*border-bottom : solid #303F43 1px;*/
+}
+
+.rij1 img {
+    float : right;
+    margin: -195px 0 0 0;
+}
+
+.rij2 {
+    overflow : auto;
+    display : block;
+    /*border-bottom : solid #303F43 1px;*/
+}
+
+.rij2kolom1 {
+    width : 24%;
+    float : left;
+    padding : 0 0.2em;
+     /*   outline : dotted red 1px;*/
+   /* border : solid black 1px;*/
+}
+
+.rij2kolom1 p {
+    clear : both;
+ /*   font-size : 115%; */
+}
+
+.rij2kolom2 {
+    box-sizing : border-box;
+   /* orig width : 48%;  */
+   width : 48%;
+    float : left;
+    /* orig padding : 0 0.2em;*/
+    padding : 0 1em;
+ /*   outline : dotted red 1px;*/
+ /*   border : solid black 1px;*/
+    padding-bottom : 20%;
+    background-image : url(../img/drupal-8.png);
+}
+
+.rij2kolom2 p {
+    clear : both;
+   /* font-size : 115%; */
+   /* word-spacing : 0.1em;*/
+    /*letter-spacing: 0.1em;*/
+    
+    
+}
+
+/*
+.rij2kolom2 img {
+     width : 99%;
+    height :auto;
+    width : auto;
+    margin-top : -45%; 
+    margin-left : 25%;
+    background-clip : border-box;
+
+}
+  */ 
+.rij2kolom3 {
+    float : left;
+    width : 25%;
+    padding : 0 0.2em;
+    /*    outline : dotted red 1px;*/
+  /*  border : solid black 1px;*/
+}
+
+.rij2kolom3 p {
+    clear : both;
+  /*  font-size : 115% */
+}
+.rij2 img {
+    float : left;
+}
+
+.rij3 {
+    display : block;
+    width : 80%;
+    overflow : auto;
+}
+
+.rij3rij1 {
+    overflow : auto;
+}
+
+.rij3rij1 img {
+    float : left;
+    margin-right : 8%;
+}
+
+.rij3rij2 {
+    overflow : auto;
+}
+.rij3rij2 img {
+    float : left;
+    margin-right : 8%;
+}
+
+.rij3rij3 {
+    overflow : auto;
+}
+
+.rij3rij3 img {
+    float : left;
+    margin-right : 8%;
+}
+
+/* footer */
+
+footer p {
+                 color : white;
+             }
+
+footer {
+    background-color : black;
+    padding : 2%; 
+}
+
+.voet {
+    width : 80%;
+    margin : 0 auto;
+    overflow : auto;
+    max-width : 1200px;
+    display : block;
+}
+
+.voet p {
+    display : inline-block;
+    float : left;
+}
+
+p.datum {
+    display : inline-block;
+    float : right;
+    background-color : white;
+    color : #52463F;
+    padding-left : 0.5em;
+    padding-right : 0.5em;
+}
